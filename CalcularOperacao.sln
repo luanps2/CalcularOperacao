@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularOperacao", "CalcularOperacao\CalcularOperacao.csproj", "{EF29BF3C-0F6F-4539-AFEC-CF85F40A92FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF29BF3C-0F6F-4539-AFEC-CF85F40A92FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF29BF3C-0F6F-4539-AFEC-CF85F40A92FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF29BF3C-0F6F-4539-AFEC-CF85F40A92FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF29BF3C-0F6F-4539-AFEC-CF85F40A92FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CCF7C00-0B9A-4A52-9769-47BCB55462F4}
+	EndGlobalSection
+EndGlobal
