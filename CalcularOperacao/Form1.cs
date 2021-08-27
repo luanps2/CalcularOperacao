@@ -36,5 +36,25 @@ namespace CalcularOperacao
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           double v1 = Convert.ToDouble(txtValor1.Text);
+            double v2 = Convert.ToDouble(txtValor2.Text);
+            string resultado = lblResultado.Text;
+
+            //MessageBox.Show(groupBox1.Checked);
+
+            //switch (rbSomar.Checked)
+            //{
+            //    resultado = (v1 + v2).ToString():
+            //        break;
+            //}
+
+            //if (rbSomar.Checked)
+            //{
+            //    lblResultado.Text = (v1 + v2).ToString();
+            //}else if
+        }
     }
 }

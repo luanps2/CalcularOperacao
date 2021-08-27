@@ -29,96 +29,30 @@ namespace CalcularOperacao
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calcularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtValor1 = new System.Windows.Forms.TextBox();
+            this.txtValor2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rbDividir = new System.Windows.Forms.RadioButton();
+            this.rbQuadrado = new System.Windows.Forms.RadioButton();
+            this.rbMedia = new System.Windows.Forms.RadioButton();
+            this.rbMultiplicar = new System.Windows.Forms.RadioButton();
+            this.rbSubtrair = new System.Windows.Forms.RadioButton();
+            this.rbSomar = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.toolStrip1.SuspendLayout();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.teste2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calcularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSplitButton1,
-            this.toolStripSplitButton2,
-            this.toolStripSplitButton3});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(275, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripSplitButton2
-            // 
-            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calcularToolStripMenuItem});
-            this.toolStripSplitButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton2.Image")));
-            this.toolStripSplitButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
-            this.toolStripSplitButton2.Size = new System.Drawing.Size(63, 22);
-            this.toolStripSplitButton2.Text = "Opções";
-            // 
-            // toolStripSplitButton3
-            // 
-            this.toolStripSplitButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripSplitButton3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sairToolStripMenuItem});
-            this.toolStripSplitButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton3.Image")));
-            this.toolStripSplitButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton3.Name = "toolStripSplitButton3";
-            this.toolStripSplitButton3.Size = new System.Drawing.Size(54, 22);
-            this.toolStripSplitButton3.Text = "Ajuda";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sairToolStripMenuItem.Text = "Sair";
-            // 
-            // calcularToolStripMenuItem
-            // 
-            this.calcularToolStripMenuItem.Name = "calcularToolStripMenuItem";
-            this.calcularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.calcularToolStripMenuItem.Text = "Calcular";
-            // 
-            // toolStripSplitButton1
-            // 
-            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripSplitButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testeToolStripMenuItem});
-            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
-            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(62, 22);
-            this.toolStripSplitButton1.Text = "Arquivo";
-            this.toolStripSplitButton1.Click += new System.EventHandler(this.toolStripSplitButton1_Click);
-            // 
-            // testeToolStripMenuItem
-            // 
-            this.testeToolStripMenuItem.Name = "testeToolStripMenuItem";
-            this.testeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.testeToolStripMenuItem.Text = "Sair";
-            this.testeToolStripMenuItem.Click += new System.EventHandler(this.testeToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -146,29 +80,30 @@ namespace CalcularOperacao
             this.button1.TabIndex = 2;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // txtValor1
             // 
-            this.textBox1.Location = new System.Drawing.Point(96, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtValor1.Location = new System.Drawing.Point(96, 57);
+            this.txtValor1.Name = "txtValor1";
+            this.txtValor1.Size = new System.Drawing.Size(100, 20);
+            this.txtValor1.TabIndex = 3;
             // 
-            // textBox2
+            // txtValor2
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 83);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtValor2.Location = new System.Drawing.Point(96, 83);
+            this.txtValor2.Name = "txtValor2";
+            this.txtValor2.Size = new System.Drawing.Size(100, 20);
+            this.txtValor2.TabIndex = 3;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton6);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.rbDividir);
+            this.groupBox1.Controls.Add(this.rbQuadrado);
+            this.groupBox1.Controls.Add(this.rbMedia);
+            this.groupBox1.Controls.Add(this.rbMultiplicar);
+            this.groupBox1.Controls.Add(this.rbSubtrair);
+            this.groupBox1.Controls.Add(this.rbSomar);
             this.groupBox1.Location = new System.Drawing.Point(38, 125);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 123);
@@ -176,38 +111,69 @@ namespace CalcularOperacao
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Selecione a Operação desejada";
             // 
-            // radioButton1
+            // rbDividir
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(7, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Somar";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbDividir.AutoSize = true;
+            this.rbDividir.Checked = true;
+            this.rbDividir.Location = new System.Drawing.Point(8, 89);
+            this.rbDividir.Name = "rbDividir";
+            this.rbDividir.Size = new System.Drawing.Size(54, 17);
+            this.rbDividir.TabIndex = 0;
+            this.rbDividir.TabStop = true;
+            this.rbDividir.Text = "Dividir";
+            this.rbDividir.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbQuadrado
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(7, 43);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(61, 17);
-            this.radioButton2.TabIndex = 0;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Subtrair";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbQuadrado.AutoSize = true;
+            this.rbQuadrado.Location = new System.Drawing.Point(98, 42);
+            this.rbQuadrado.Name = "rbQuadrado";
+            this.rbQuadrado.Size = new System.Drawing.Size(72, 17);
+            this.rbQuadrado.TabIndex = 0;
+            this.rbQuadrado.Text = "Quadrado";
+            this.rbQuadrado.UseVisualStyleBackColor = true;
+            this.rbQuadrado.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
-            // radioButton3
+            // rbMedia
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(7, 66);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(72, 17);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Multiplicar";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rbMedia.AutoSize = true;
+            this.rbMedia.Location = new System.Drawing.Point(98, 19);
+            this.rbMedia.Name = "rbMedia";
+            this.rbMedia.Size = new System.Drawing.Size(54, 17);
+            this.rbMedia.TabIndex = 0;
+            this.rbMedia.Text = "Média";
+            this.rbMedia.UseVisualStyleBackColor = true;
+            this.rbMedia.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            // 
+            // rbMultiplicar
+            // 
+            this.rbMultiplicar.AutoSize = true;
+            this.rbMultiplicar.Location = new System.Drawing.Point(7, 66);
+            this.rbMultiplicar.Name = "rbMultiplicar";
+            this.rbMultiplicar.Size = new System.Drawing.Size(72, 17);
+            this.rbMultiplicar.TabIndex = 0;
+            this.rbMultiplicar.Text = "Multiplicar";
+            this.rbMultiplicar.UseVisualStyleBackColor = true;
+            // 
+            // rbSubtrair
+            // 
+            this.rbSubtrair.AutoSize = true;
+            this.rbSubtrair.Location = new System.Drawing.Point(7, 43);
+            this.rbSubtrair.Name = "rbSubtrair";
+            this.rbSubtrair.Size = new System.Drawing.Size(61, 17);
+            this.rbSubtrair.TabIndex = 0;
+            this.rbSubtrair.Text = "Subtrair";
+            this.rbSubtrair.UseVisualStyleBackColor = true;
+            // 
+            // rbSomar
+            // 
+            this.rbSomar.AutoSize = true;
+            this.rbSomar.Location = new System.Drawing.Point(7, 20);
+            this.rbSomar.Name = "rbSomar";
+            this.rbSomar.Size = new System.Drawing.Size(55, 17);
+            this.rbSomar.TabIndex = 0;
+            this.rbSomar.Text = "Somar";
+            this.rbSomar.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -218,98 +184,118 @@ namespace CalcularOperacao
             this.label3.TabIndex = 5;
             this.label3.Text = "Resultado:";
             // 
-            // label4
+            // lblResultado
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(133, 319);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "sem resultado";
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Location = new System.Drawing.Point(133, 319);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(72, 13);
+            this.lblResultado.TabIndex = 5;
+            this.lblResultado.Text = "sem resultado";
             // 
-            // radioButton5
+            // menuStrip1
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(98, 19);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(54, 17);
-            this.radioButton5.TabIndex = 0;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Média";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.testeToolStripMenuItem,
+            this.opçõesToolStripMenuItem,
+            this.ajudaToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(275, 24);
+            this.menuStrip1.TabIndex = 6;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // radioButton6
+            // testeToolStripMenuItem
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(8, 89);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(54, 17);
-            this.radioButton6.TabIndex = 0;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Dividir";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.testeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.teste2ToolStripMenuItem});
+            this.testeToolStripMenuItem.Name = "testeToolStripMenuItem";
+            this.testeToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.testeToolStripMenuItem.Text = "Arquivo";
             // 
-            // radioButton4
+            // teste2ToolStripMenuItem
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(98, 42);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(72, 17);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Quadrado";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
+            this.teste2ToolStripMenuItem.Name = "teste2ToolStripMenuItem";
+            this.teste2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.teste2ToolStripMenuItem.Text = "Sair";
+            // 
+            // opçõesToolStripMenuItem
+            // 
+            this.opçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calcularToolStripMenuItem});
+            this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
+            this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.opçõesToolStripMenuItem.Text = "Opções";
+            // 
+            // calcularToolStripMenuItem
+            // 
+            this.calcularToolStripMenuItem.Name = "calcularToolStripMenuItem";
+            this.calcularToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calcularToolStripMenuItem.Text = "Calcular";
+            // 
+            // ajudaToolStripMenuItem
+            // 
+            this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sobreToolStripMenuItem});
+            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.ajudaToolStripMenuItem.Text = "Ajuda";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 450);
-            this.Controls.Add(this.label4);
+            this.ClientSize = new System.Drawing.Size(275, 370);
+            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtValor2);
+            this.Controls.Add(this.txtValor1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton2;
-        private System.Windows.Forms.ToolStripMenuItem calcularToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton3;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
-        private System.Windows.Forms.ToolStripDropDownButton toolStripSplitButton1;
-        private System.Windows.Forms.ToolStripMenuItem testeToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtValor1;
+        private System.Windows.Forms.TextBox txtValor2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rbDividir;
+        private System.Windows.Forms.RadioButton rbMedia;
+        private System.Windows.Forms.RadioButton rbMultiplicar;
+        private System.Windows.Forms.RadioButton rbSubtrair;
+        private System.Windows.Forms.RadioButton rbSomar;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.RadioButton rbQuadrado;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem testeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem teste2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem opçõesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calcularToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
     }
 }
 
