@@ -26,5 +26,15 @@ namespace CalcularOperacao
         {
 
         }
+
+        private void testeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripSplitButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -63,7 +63,7 @@ namespace CalcularOperacao
             this.toolStripSplitButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(335, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(275, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -111,12 +111,14 @@ namespace CalcularOperacao
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
             this.toolStripSplitButton1.Size = new System.Drawing.Size(62, 22);
             this.toolStripSplitButton1.Text = "Arquivo";
+            this.toolStripSplitButton1.Click += new System.EventHandler(this.toolStripSplitButton1_Click);
             // 
             // testeToolStripMenuItem
             // 
             this.testeToolStripMenuItem.Name = "testeToolStripMenuItem";
             this.testeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.testeToolStripMenuItem.Text = "teste";
+            this.testeToolStripMenuItem.Text = "Sair";
+            this.testeToolStripMenuItem.Click += new System.EventHandler(this.testeToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -138,11 +140,11 @@ namespace CalcularOperacao
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(96, 303);
+            this.button1.Location = new System.Drawing.Point(96, 268);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
+            this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
@@ -167,9 +169,9 @@ namespace CalcularOperacao
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(96, 130);
+            this.groupBox1.Location = new System.Drawing.Point(38, 125);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 159);
+            this.groupBox1.Size = new System.Drawing.Size(200, 123);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Selecione a Operação desejada";
@@ -210,20 +212,20 @@ namespace CalcularOperacao
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 341);
+            this.label3.Location = new System.Drawing.Point(69, 319);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.label3.Text = "Resultado:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(88, 341);
+            this.label4.Location = new System.Drawing.Point(133, 319);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(72, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "label3";
+            this.label4.Text = "sem resultado";
             // 
             // radioButton5
             // 
@@ -264,7 +266,7 @@ namespace CalcularOperacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 450);
+            this.ClientSize = new System.Drawing.Size(275, 450);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
